@@ -13,7 +13,7 @@ stage('Build the code')
  {
  sh "${mavenHome}/bin/mvn clean package"
  }
-
+/*
 stage ('executesonarqubereport')
  {
  sh "${mavenHome}/bin/mvn sonar:sonar"
@@ -37,4 +37,5 @@ stage ('deploytotomcat')
 Regards 
 naveen''', subject: 'Build is over', to: 'naveenkaviti1226@gmail.com'
  }
+ */
 }
